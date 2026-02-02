@@ -73,7 +73,7 @@ if __name__ == "__main__":
     params["SceneGraph"] = {}
 
     ## General Parameters
-    params["General"]["output_folder"] = "/output"
+    params["General"]["output_folder"] = "./output"  # 输出到当前目录下的 output 文件夹
     params["General"][
         "scene_graph_source"
     ] = 0  # 0: From Ground Truth Positions, 2: Visual Observations
